@@ -1209,15 +1209,26 @@ input, select, textarea {
 	}
 	#headdd{
 
-		text-shadow: 3px 2px grey;
+		text-shadow: 6px 4px 5px grey;
 	}
 	.homeWord{
 		color:white;
 		font-weight: bold;
+	    mix-blend-mode: difference;
+	}
+	.homeWords{
+		color:darkgrey;
+		font-weight: bold;
+		mix-blend-mode: difference;
+		text-shadow: 4px 3px 4px grey;
+		text-decoration: line-through;
+		letter-spacing: 6px;
+		
 	}
 	#words{
 		color: red;
 		font-weight: 600;
+		
 	}
 
 		#wrapper:before {
