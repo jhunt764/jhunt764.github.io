@@ -1223,7 +1223,12 @@ input, select, textarea {
 		text-shadow: 4px 3px 4px grey;
 		text-decoration: line-through;
 		letter-spacing: 6px;
+		transition: text-decoration 1s ease;
 		
+	}
+	.homeWords:hover{
+		transition-delay: 1s;
+		text-decoration: underline;
 	}
 	#words{
 		color: red;
