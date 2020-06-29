@@ -1134,7 +1134,6 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("/images/scenic-photo-of-lake-surrounded-by-trees-1903702.jpg");
 			background-size: auto,
  256px 256px;
 			background-position: center,
@@ -1200,9 +1199,7 @@ input, select, textarea {
 		padding: 4rem 2rem;
 		z-index: 3;
 		
-		background-image: url(
-			'/images/blur-bokeh-dark-defocused-376533.jpg'
-		);
+		url("../../images/bg.jpg")
 		background-repeat: no-repeat;
 		background-size: cover;
 		
@@ -1217,11 +1214,9 @@ input, select, textarea {
 	    mix-blend-mode: difference;
 	}
 	.homeWords{
-		color:darkgrey;
+		color: black;
 		font-weight: bold;
 		mix-blend-mode: difference;
-		text-shadow: 4px 3px 4px grey;
-		text-decoration: line-through;
 		letter-spacing: 6px;
 		transition: text-decoration 1s ease;
 		
