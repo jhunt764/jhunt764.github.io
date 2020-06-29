@@ -1219,10 +1219,12 @@ input, select, textarea {
 	.homeWords:hover{
 		transition-delay: 1s;
 		text-decoration: underline;
+		mix-blend-mode: difference;
 	}
 	#words{
-		color: red;
+		color:white;
 		font-weight: 600;
+		mix-blend-mode: difference;
 		
 	}
 
@@ -1280,6 +1282,7 @@ input, select, textarea {
 		background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		max-width: 100%;
 		text-align: center;
+		mix-blend-mode: difference;
 	}
 
 		#header > * {
@@ -1289,6 +1292,7 @@ input, select, textarea {
 			transition: opacity 0.325s ease-in-out;
 			position: relative;
 			margin-top: 3.5rem;
+			mix-blend-mode: difference;
 		}
 
 			#header > *:before {
