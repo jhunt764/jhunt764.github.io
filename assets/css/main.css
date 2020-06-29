@@ -135,8 +135,8 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #ffffff;
-		font-family: "Source Sans Pro", sans-serif;
+		color: black;
+		font-family: operator mono;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.65;
@@ -1198,8 +1198,7 @@ input, select, textarea {
 		width: 100%;
 		padding: 4rem 2rem;
 		z-index: 3;
-		
-		url("../../images/bg.jpg")
+		background-image: url("/images/578724-PLVSRM-880.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
 		
@@ -1209,7 +1208,7 @@ input, select, textarea {
 		text-shadow: 6px 4px 5px grey;
 	}
 	.homeWord{
-		color:white;
+		color:black;
 		font-weight: bold;
 	    mix-blend-mode: difference;
 	}
@@ -1329,7 +1328,7 @@ input, select, textarea {
 
 		#header .content {
 			border-style: solid;
-			border-color: #ffffff;
+			border-color: black;
 			border-top-width: 1px;
 			border-bottom-width: 1px;
 			max-width: 100%;
