@@ -1171,7 +1171,7 @@ input, select, textarea {
 		}
 
 		body.is-preload #bg:before {
-			background-color: #000000;
+			background-color:white;
 		}
 
 /* Wrapper */
@@ -1203,17 +1203,13 @@ input, select, textarea {
 		background-size: cover;
 		
 	}
-	#headdd{
-
-		text-shadow: 6px 4px 5px grey;
-	}
 	.homeWord{
-		color:black;
+		color:white;
 		font-weight: bold;
 	    mix-blend-mode: difference;
 	}
 	.homeWords{
-		color: black;
+		color: white;
 		font-weight: bold;
 		mix-blend-mode: difference;
 		letter-spacing: 6px;
